@@ -153,22 +153,22 @@ _Every participant in software work — human or machine, producing or judging �
 
 Every theorem opens with a **Descends from** line naming its parents — clauses, plus the [setting](#setting), [bedrock](#bedrock), and any earlier theorems serving as premises. In the table below, clauses, setting, and bedrock fill the _Descends from_ column; the _Uses_ column is mechanical — it lists every _earlier_ theorem cited in the theorem's own prose, premises included, directions excluded. A reference to a _later_ theorem is a forward pointer, never a dependency: it may appear in a theorem's prose, never in this column — which keeps the graph acyclic by construction. Junction theorems draw equally on two axioms and are homed with the axiom bearing their subject.
 
-| #                      | Theorem                                                | Home          | Descends from                                                                                                         | Uses                       |
-| ---------------------- | ------------------------------------------------------ | ------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| [T1](1-medium.md#t1)   | All assurance is partial                               | A1            | [1d](1-medium.md#1d), [1b](1-medium.md#1b)                                                                            | —                          |
-| [T2](1-medium.md#t2)   | Questions of behavior are settled by running           | A1            | [1d](1-medium.md#1d), [3c](3-actors.md#3c)                                                                            | T1                         |
-| [T3](1-medium.md#t3)   | Change is cheap; re-trust is not                       | A1            | [1c](1-medium.md#1c), [1d](1-medium.md#1d)                                                                            | —                          |
-| [T4](1-medium.md#t4)   | Unchanged software still drifts                        | A1            | [1b](1-medium.md#1b), bedrock                                                                                         | —                          |
-| [T5](1-medium.md#t5)   | Some runs are rehearsals; some are real                | A1            | [1a](1-medium.md#1a), [1b](1-medium.md#1b), [1d](1-medium.md#1d), bedrock                                             | T1                         |
-| [T6](2-intent.md#t6)   | Every act of production decides unstated things        | A2            | [2b](2-intent.md#2b), [setting](#setting), [1a](1-medium.md#1a)                                                       | T5                         |
-| [T7](2-intent.md#t7)   | Intent is discovered through the loop                  | A2            | [2a](2-intent.md#2a), [2b](2-intent.md#2b), [2c](2-intent.md#2c), [1d](1-medium.md#1d)                                | T5                         |
-| [T8](2-intent.md#t8)   | The record of intent is maintained, never finished     | A2            | [2a](2-intent.md#2a), [2c](2-intent.md#2c)                                                                            | T4, T6                     |
-| [T9](3-actors.md#t9)   | Testimony is not evidence                              | A3            | [3c](3-actors.md#3c), [1d](1-medium.md#1d), [setting](#setting)                                                       | T2, T3                     |
-| [T10](3-actors.md#t10) | What is not in the shared record is lost               | A3            | [3a](3-actors.md#3a), [setting](#setting)                                                                             | T4, T6, T7, T8, T9         |
-| [T11](3-actors.md#t11) | Rules must bind roles and profiles, not kinds of actor | A3            | [3d](3-actors.md#3d), [setting](#setting)                                                                             | —                          |
-| [T12](3-actors.md#t12) | Judgment is the scarce budget                          | A3            | [3a](3-actors.md#3a), [3b](3-actors.md#3b), [3c](3-actors.md#3c), [3d](3-actors.md#3d), [setting](#setting)           | T1, T5, T6, T8             |
-| [T13](2-intent.md#t13) | Intent wants to become executable                      | A2 (junction) | [2b](2-intent.md#2b), [2c](2-intent.md#2c), [1d](1-medium.md#1d), [3a](3-actors.md#3a), [3c](3-actors.md#3c), bedrock | T1, T2, T3, T6, T7, T8, T9 |
-| [T14](3-actors.md#t14) | Structure is how bounded actors survive scale          | A3 (junction) | [3a](3-actors.md#3a), [1c](1-medium.md#1c)                                                                            | T3, T4, T7, T10            |
+| # | Theorem | Home | Descends from | Uses |
+| --- | --- | --- | --- | --- |
+| [T1](1-medium.md#t1) | All assurance is partial | A1 | [1d](1-medium.md#1d), [1b](1-medium.md#1b) | — |
+| [T2](1-medium.md#t2) | Questions of behavior are settled by running | A1 | [1d](1-medium.md#1d), [3c](3-actors.md#3c) | T1 |
+| [T3](1-medium.md#t3) | Change is cheap; re-trust is not | A1 | [1c](1-medium.md#1c), [1d](1-medium.md#1d) | — |
+| [T4](1-medium.md#t4) | Unchanged software still drifts | A1 | [1b](1-medium.md#1b), bedrock | — |
+| [T5](1-medium.md#t5) | Some runs are rehearsals; some are real | A1 | [1a](1-medium.md#1a), [1b](1-medium.md#1b), [1d](1-medium.md#1d), bedrock | T1 |
+| [T6](2-intent.md#t6) | Every act of production decides unstated things | A2 | [2b](2-intent.md#2b), [setting](#setting), [1a](1-medium.md#1a) | T5 |
+| [T7](2-intent.md#t7) | Intent is discovered through the loop | A2 | [2a](2-intent.md#2a), [2b](2-intent.md#2b), [2c](2-intent.md#2c), [1d](1-medium.md#1d) | T5 |
+| [T8](2-intent.md#t8) | The record of intent is maintained, never finished | A2 | [2a](2-intent.md#2a), [2c](2-intent.md#2c) | T4, T6 |
+| [T9](3-actors.md#t9) | Testimony is not evidence | A3 | [3c](3-actors.md#3c), [1d](1-medium.md#1d), [setting](#setting) | T2, T3 |
+| [T10](3-actors.md#t10) | What is not in the shared record is lost | A3 | [3a](3-actors.md#3a), [setting](#setting) | T4, T6, T7, T8, T9 |
+| [T11](3-actors.md#t11) | Rules must bind roles and profiles, not kinds of actor | A3 | [3d](3-actors.md#3d), [setting](#setting) | — |
+| [T12](3-actors.md#t12) | Judgment is the scarce budget | A3 | [3a](3-actors.md#3a), [3b](3-actors.md#3b), [3c](3-actors.md#3c), [3d](3-actors.md#3d), [setting](#setting) | T1, T5, T6, T8 |
+| [T13](2-intent.md#t13) | Intent wants to become executable | A2 (junction) | [2b](2-intent.md#2b), [2c](2-intent.md#2c), [1d](1-medium.md#1d), [3a](3-actors.md#3a), [3c](3-actors.md#3c), bedrock | T1, T2, T3, T6, T7, T8, T9 |
+| [T14](3-actors.md#t14) | Structure is how bounded actors survive scale | A3 (junction) | [3a](3-actors.md#3a), [1c](1-medium.md#1c) | T3, T4, T7, T10 |
 
 Cross-axiom co-parentage is also indexed at each axiom document's _Descendants homed elsewhere_ section, so the graph can be walked from either end.
 
