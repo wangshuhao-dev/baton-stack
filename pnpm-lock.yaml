@@ -223,7 +223,7 @@ importers:
         specifier: 'catalog:'
         version: 0.2.7(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)
 
-  apps/website:
+  record/text/apps/website:
     devDependencies:
       typescript:
         specifier: ^7.0.2
@@ -235,7 +235,7 @@ importers:
         specifier: 'catalog:'
         version: 0.2.7(@types/node@26.1.2)(@voidzero-dev/vite-plus-core@0.2.7(@types/node@26.1.2)(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0))(jiti@2.7.0)(typescript@7.0.2)(yaml@2.9.0)
 
-  packages/utils:
+  record/text/packages/utils:
     devDependencies:
       '@types/node':
         specifier: ^26.1.1
