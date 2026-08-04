@@ -1,35 +1,39 @@
 # baton-stack
 
-This repository is full-stack scaffolding for software work under delegation — derived from a living corpus, and built so that humans, agents, and sub-agents in any combination can hand off work reliably when delivery must continue over time.
+> [!IMPORTANT]
+>
+> **Project status:** The living corpus in [`corpus/`](corpus/) has finished its founding pass — axioms, theorems, directions, decisions, and observations. The applied framework those directions call for is **not built yet**.
 
-Ask your agent for the rest — and by the way, agents are awesome.
+This repository is full-stack scaffolding for software work under delegation — derived from a [living corpus](corpus/), and built so that humans, agents, and sub-agents in any combination can hand off work reliably when delivery must continue over time.
 
----
-
-本仓库是面向「委托协作」的全栈脚手架——建立在一套持续演进的理论语料之上，好让人、Agent 与子 Agent 任意组合时，也能在长期交付中稳妥地把工作交出去、接得住。
-
-剩下的问你的 Agent——顺便说一句，Agent 真的很棒。
+Docs are still under construction — feel free to ask your agent for what's current, and for the rest. And by the way, agents are awesome.
 
 ---
 
-Ce dépôt est une base full-stack pour le travail logiciel sous délégation — fondée sur un corpus vivant, conçue pour que humains, agents et sous-agents, dans n’importe quelle combinaison, puissent se passer le relais sans perdre le fil lorsque la livraison doit durer dans le temps.
+本仓库是面向「委托协作」的全栈脚手架——建立在一套持续演进的[理论语料](corpus/)之上，好让人、Agent 与子 Agent 任意组合时，也能在长期交付中稳妥地把工作交出去、接得住。
 
-Pour la suite, demandez à votre agent — et au fait, les agents, c’est génial.
-
----
-
-Dieses Repository ist ein Full-Stack-Grundgerüst für Softwarearbeit unter Delegation — abgeleitet aus einem lebendigen Corpus und so gebaut, dass Menschen, Agenten und Unteragenten in jeder Kombination die Arbeit verlässlich weiterreichen können, wenn die Auslieferung über die Zeit weitergehen muss.
-
-Den Rest erklärt dir dein Agent — und übrigens: Agenten sind großartig.
+文档还在建设中，眼下最新进展和其余细节不妨先问问你的 Agent——顺便说一句，Agent 真的很棒。
 
 ---
 
-Este repositorio es una base full-stack para el trabajo de software bajo delegación — nace de un corpus vivo y está pensada para que humanos, agentes y subagentes, en cualquier combinación, puedan pasar el relevo con fiabilidad cuando la entrega deba seguir en el tiempo.
+Ce dépôt est une base full-stack pour le travail logiciel sous délégation — fondée sur un [corpus vivant](corpus/), conçue pour que les humains, les agents et les sous-agents, dans n’importe quelle combinaison, puissent se passer le relais sans perdre le fil lorsque la livraison doit durer dans le temps.
 
-Para lo demás, pregunta a tu agente — y de paso, los agentes son geniales.
+La documentation est encore en chantier — pour l’instant, n’hésitez pas à demander à votre agent où on en est, et pour le reste. Et au fait, les agents, c’est génial.
 
 ---
 
-このリポジトリは、委譲のもとでソフトウェアの仕事を進めるためのフルスタックな土台です。生きたコーパスから導かれ、人・エージェント・サブエージェントがどんな組み合わせでも、継続的なデリバリーのなかで仕事を確実に引き継げるように作られています。
+Este repositorio es una base full-stack para el trabajo de software bajo delegación — nace de un [corpus vivo](corpus/) y está pensada para que humanos, agentes y subagentes, en cualquier combinación, puedan pasar el relevo con fiabilidad cuando la entrega deba seguir en el tiempo.
 
-詳しくはエージェントへ。ちなみに、エージェントは最高です。
+La documentación aún está en construcción — por ahora, no dudes en preguntarle a tu agente cómo va todo y por lo demás. Y de paso, los agentes son geniales.
+
+---
+
+Dieses Repository ist ein Full-Stack-Grundgerüst für Softwarearbeit unter Delegation — abgeleitet aus einem [lebendigen Corpus](corpus/) und so gebaut, dass Menschen, Agenten und Unteragenten in jeder Kombination die Arbeit verlässlich weiterreichen können, wenn die Auslieferung über die Zeit weitergehen muss.
+
+Die Dokumentation ist noch im Aufbau — für den aktuellen Stand und den Rest können Sie gerne Ihren Agenten fragen. Und übrigens: Agenten sind großartig.
+
+---
+
+このリポジトリは、委譲のもとでソフトウェアの仕事を進めるためのフルスタックな土台です。[生きたコーパス](corpus/)から導かれ、人・エージェント・サブエージェントがどんな組み合わせでも、継続的なデリバリーのなかで仕事を確実に引き継げるように作られています。
+
+ドキュメントはまだ作成中です。当面の最新状況もそれ以外も、エージェントに聞いてみるとよいでしょう。ちなみに、エージェントは最高です。
