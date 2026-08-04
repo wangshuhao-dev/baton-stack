@@ -45,7 +45,7 @@ Terms defined in [Axiom 1](1-medium.md#terms) — text, behavior, running, check
 
 This clause does no psychology. It does not say what wanting is made of, where it lives, or how it feels — questions belonging to other disciplines, taken here as given and outside this theory's domain. It locates something narrower: the only form in which intent ever _participates_ in software work. No party — the holder included — brings wanting itself to the table. What arrives is expressions: finite, made, inspectable things. Communication between parties never guarantees identical understanding (bedrock), so what would otherwise be assumed shared must be carried by those expressions, or remain residue.
 
-Law found the same footing long ago: courts do not weigh souls; they weigh testimony, documents, and conduct. The analogy breaks in an instructive place. Law must still reason _about_ inner states — it asks what a person must have intended — because its verdicts attach to persons. This theory never has to. Everything built later — boundaries of decision, loops of discovery, records and their upkeep — operates on expressions alone. Even the final "yes, this is what I wanted" is one more expression, carrying an expression's limits: fallible (a fact about participants — [Axiom 3](3-actors.md)) and not final ([2c](#2c)).
+Law found the same footing long ago: courts do not weigh souls; they weigh testimony, documents, and conduct. The analogy breaks in an instructive place. Law must still reason _about_ inner states — it asks what a person must have intended — because its verdicts attach to persons. This theory never has to. Everything built later — boundaries of decision, loops of discovery, records and their upkeep — operates on expressions alone. Even the final "yes, this is what I wanted" is one more expression, with an expression's limits: fallible (a fact about participants — [Axiom 3](3-actors.md)) and not final ([2c](#2c)).
 
 Note the breadth the term is given: examples, counter-examples, pointed-at precedents, and _reactions_ all count. Reactions matter most later ([T7](#t7)): confronted with candidate behavior, a holder's "no — not that" is as much an expression as any document, and often a sharper one.
 
@@ -59,7 +59,7 @@ The obvious escape is generality: can't one rule cover infinitely many cases? "F
 
 It helps to split the residue into two provinces. One is the _unsaid-but-decided_: questions the holder could answer at once if asked — preferences already formed, merely never transcribed. The other is the _never-considered_: questions the holder has no stored answer to. The first province shrinks under interrogation. The second resists interrogation twice over: no list of questions reaches the dimensions nobody thought to weigh, and where a question does land, asking retrieves no decision — it forces a fresh one into existence, made in the abstract, before any behavior has been met. What shrinks this province is encounter — [T7](#t7)'s subject — and for software of any consequence it is by far the larger province.
 
-Keep this clause distinct from [1d — Opacity](1-medium.md#1d); the two gaps differ in kind. Software's text _determines_ behavior completely — given the situation, exactly one thing happens — it merely fails to _disclose_ it to readers. Expressions of intent are weaker in a further way: they do not even determine. They delimit a region of acceptability and stop. Production is the forced march between the two: it begins from expressions that determine nothing completely and must end in text that determines everything, because the medium grants no third option. That march is made of decisions — which is [T6](#t6).
+Keep this clause distinct from [1d — Opacity](1-medium.md#1d); the two gaps differ in kind. Software's text _determines_ behavior completely — given the situation, exactly one thing happens — it merely fails to _disclose_ it to readers. Expressions of intent are weaker still: they do not even determine. They delimit a region of acceptability and stop. Production is the forced march between the two: it begins from expressions that determine nothing completely and must end in text that determines everything, because the medium grants no third option. That march is made of decisions — which is [T6](#t6).
 
 The boundary of the clause: it denies completion, not usefulness. Expressions do real work — each good one shrinks the residue, rules out families of wrong behavior, and aims later judgment. What no quantity of them ever does is finish.
 
@@ -75,7 +75,7 @@ The will analogy also breaks in the most useful place: a will is read because it
 
 The clause also draws a line that commitments cannot cross. Parties do freeze _obligations_: a specification is agreed, a change is priced, a deadline is set (current practice: _spec freeze_, _change requests_). Freezing obligation does not freeze wanting. A delegator can owe acceptance of what they no longer want, and the divergence shows up in the world as compliance without satisfaction. The theory keeps the two ledgers separate: fit-to-record can be contracted; fit-to-intent cannot — and treating the first as settling the second is how delivered-and-resented systems happen.
 
-Finally, this clause pulls against the later need for durable shared records ([T10 — What is not in the shared record is lost](3-actors.md#t10)), and the tension is productive rather than embarrassing. Records must be kept — and kept _cheap to supersede_. A record too costly or too ceremonious to override stops witnessing present intent and starts impersonating it. The design consequences are [T8](#t8)'s.
+Finally, this clause pulls against the later need for durable shared records ([T10 — What is not in the shared record is lost](3-actors.md#t10)). The tension is useful, not embarrassing. Records must be kept — and kept _cheap to supersede_. A record too costly or too ceremonious to override stops witnessing present intent and starts impersonating it. The design consequences are [T8](#t8)'s.
 
 ### <span id="clause-audit">Why these three clauses</span>
 
@@ -99,7 +99,7 @@ Expressions delimit; they do not determine (2b). But finished software determine
 
 In a delegation this has a structural consequence. Authority over fit belongs to the delegator (setting), yet the residue's closure defaults to the producer — silently. Delegation therefore transfers, along with the work, a mass of unexamined deciding. Neither party chose that transfer; the medium imposed it. What _can_ be chosen is the boundary: which classes of residue decision the producer may close alone, which it must surface before acting, which it must never close. The boundary exists in every delegation — undrawn, it still operates, as pure default. A framework's job is to make it an object: drawn, visible, adjustable.
 
-And it is an economic object, not only a rights object. Surfacing a decision spends the delegator's attention — the scarce input delegation exists to conserve (the [setting](README.md#setting)'s leverage motive; the economics are developed at [T12 — Judgment is the scarce budget](3-actors.md#t12)). A boundary that surfaces everything reproduces the burden delegation was meant to lift; one that surfaces nothing transfers authority wholesale. Everything interesting lies between — and moves, with stakes, with track record, and with how costly a wrong silent closure would be to undo ([T5 — Some runs are rehearsals; some are real](1-medium.md#t5)).
+It is also an economic object, not only a rights object. Surfacing a decision spends the delegator's attention — the scarce input delegation exists to conserve (the [setting](README.md#setting)'s leverage motive; the economics are developed at [T12 — Judgment is the scarce budget](3-actors.md#t12)). A boundary that surfaces everything reproduces the burden delegation was meant to lift; one that surfaces nothing transfers authority wholesale. Everything interesting lies between — and moves with stakes, track record, and how costly a wrong silent closure would be to undo ([T5 — Some runs are rehearsals; some are real](1-medium.md#t5)).
 
 **Engineering directions:**
 
@@ -129,7 +129,7 @@ Call it an _encounter_ when intent's holder confronts candidate behavior — a s
 
 So the loop — build something showable, show it, harvest the reactions, go again — is not a modern taste or a concession to indiscipline. **It is the only mechanism that reaches the residue's larger province.** And because intent also moves on its own (2c), the loop never runs dry: even a hypothetically perfected record of wanting would date.
 
-This does not abolish forethought; it bounds and re-prices it. Deliberation is itself a weak encounter — imagining a case is confronting it, at low cost and low fidelity. From there a ladder rises — each rung dearer and truer than the last:
+This does not abolish forethought; it bounds and re-prices it. Deliberation is itself a weak encounter — imagining a case is confronting it, at low cost and low fidelity. From there a ladder rises, each rung dearer and truer than the last:
 
 1. the considered case
 2. the sketch
@@ -144,7 +144,7 @@ Planning is not the loop's rival; it is the loop's cheapest rung. The theorem cl
 
 #### <span id="d-loop-unit">The loop as the unit of work</span>
 
-Frameworks should shape work as encounter-cycles rather than one-way hand-offs: each cycle scoped by which residue it means to expose, and obliged to produce fresh expression, not only artifact (current practice: iterations, demos, prototypes). Design questions: what sets cycle length; what a cycle must yield to count as complete; and what "done" can even mean under 2c — an answer a framework must give explicitly rather than inherit.
+Frameworks should shape work as encounter-cycles rather than one-way hand-offs: each cycle scoped by which residue it means to expose, and obliged to produce fresh expression, not only artifact (current practice: iterations, demos, prototypes). Design questions include what sets cycle length, what a cycle must yield to count as complete, and what "done" can even mean under 2c — answers a framework must give explicitly rather than inherit.
 
 #### <span id="d-encounter-cost">Cheapening encounters</span>
 
@@ -203,15 +203,15 @@ Overriding the record must be low-ceremony, or present intent stops flowing thro
 
 ### <span id="t13">T13 — Intent wants to become executable</span>
 
-**Junction theorem: descends from [2b](#2b) + [2c](#2c) + [1d](1-medium.md#1d) + [3a](3-actors.md#3a) + [3c](3-actors.md#3c), with bedrock (machines run text exactly, fast, at negligible cost). Homed here because intent is its subject.**
+**Junction theorem. Descends from [2b](#2b) + [2c](#2c) + [1d](1-medium.md#1d) + [3a](3-actors.md#3a) + [3c](3-actors.md#3c), with bedrock (machines run text exactly, fast, at negligible cost). Homed here because intent is its subject.**
 
 Expressions of intent differ in a property that turns out to organize everything: whether conformance to them can be checked by a machine. "Feels trustworthy" must be checked by judgment. "Given this exact situation, this exact behavior" can be phrased so that a machine arranges the situation, runs the software, and compares the outcome against the expression — an _executable expression_ (current practice: an automated test — a small program whose only job is to stage a situation, run the software in it, and compare what happens with what was wanted).
 
-Executable expressions have three properties no other kind of expression matches:
+Executable expressions have properties no other kind matches:
 
 - They are checked at machine price — tirelessly, identically, as often as wanted (bedrock) — which matters because assurance must be re-earned after every change ([T3](1-medium.md#t3)): a judgment-checked expression bills its full cost at every re-check, while an executable one, once written, re-verifies for near-nothing, forever.
 - Their verdict does not depend on who asks ([T2](1-medium.md#t2); co-parent [3c](3-actors.md#3c)).
-- And they keep testifying without anyone's attention or memory ([3a](3-actors.md#3a): judgment and recall are finite per episode).
+- They keep testifying without anyone's attention or memory ([3a](3-actors.md#3a): judgment and recall are finite per episode).
 
 Hence the gradient this theorem's name states: over a system's life there is standing pressure — economic, not moral — for intent to migrate into executable form wherever migration is affordable. The yield of encounters ([T7](#t7)), the closures surfaced at the boundary ([T6](#t6)), the lessons of escaped failures ([T1](1-medium.md#t1)) — each is worth more re-expressed executably, because it then guards without being attended to.
 
@@ -237,4 +237,4 @@ The executable corpus is part of the record of intent and inherits [T8](#t8) ent
 
 ## <span id="elsewhere">Descendants homed elsewhere</span>
 
-No clause of this axiom currently serves as co-parent to a theorem homed under a companion axiom: the wanting's consequences concentrate here. The corpus-wide derivation graph, including theorem-to-theorem uses, is indexed in the [README](README.md).
+No clause of this axiom is currently a co-parent to a theorem homed under a companion axiom: the wanting's consequences concentrate here. The corpus-wide derivation graph, including theorem-to-theorem uses, is indexed in the [README](README.md).

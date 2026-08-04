@@ -13,7 +13,7 @@ This is one of three foundation documents. Each characterizes one element of sof
 
 ## <span id="statement">Statement</span>
 
-The axiom is stated in four clauses. Together they characterize software as a working material — the way an engineer would characterize steel or timber: what it costs to shape, how its effects travel, and what can be known about it. All four are facts about the material itself, prior to anyone wanting anything from it and prior to any particular participant working on it.
+The axiom is stated in four clauses. Together they characterize software as a working material — the way an engineer would characterize steel or timber: what it costs to shape, how its effects travel, and what can be known about it. All four are facts about the material itself, before anyone wants anything from it and before any particular participant works on it.
 
 ### <span id="1a">1a — Enactment</span>
 
@@ -43,7 +43,7 @@ No amount of reading or analysis of the text can fully disclose its behavior. Ob
 
 This section fixes what the axiom means, what its words cover, and what it does not claim.
 
-A note on analogies before they appear: software resembles familiar kinds of writing — recipes, musical scores, contracts — and this document will borrow those resemblances to explain itself. But each clause of the axiom marks a place where the resemblance breaks down. The breaks are the content. Where an analogy is used, the point at which it fails will be marked, because the failure is usually the lesson.
+A note on analogies before they appear: software resembles familiar kinds of writing — recipes, musical scores, contracts — and this document will borrow those resemblances. Each clause marks where the resemblance breaks down. The breaks are the content. Where an analogy is used, the failure point is marked, because that failure is usually the lesson.
 
 ### <span id="terms">Terms used in this document</span>
 
@@ -57,11 +57,11 @@ A note on analogies before they appear: software resembles familiar kinds of wri
 
 ### <span id="1a-commentary">On 1a — Enactment</span>
 
-A recipe is also a text of instructions, but a recipe's value passes through a cook — someone who understands the goal, tastes as they go, and repairs the instructions' gaps with judgment. Software's reader is the machine, and the machine brings no such repair (see _Running_, above). Whatever the text says happens; nothing the text fails to say happens on its behalf. So the worth of software cannot be located in the text's eloquence, cleverness, or beauty. It is located in what the text, followed literally, goes on to do.
+A recipe is also a text of instructions, but a recipe's value passes through a cook — someone who understands the goal, tastes as they go, and repairs the instructions' gaps with judgment. Software's reader is the machine, and the machine brings no such repair (see _Running_, above). Whatever the text says happens; nothing the text fails to say happens on its behalf. So the worth of software is not in the text's eloquence, cleverness, or beauty. It is in what the text, followed literally, goes on to do.
 
 Two boundaries on this clause.
 
-First, 1a does **not** say that qualities of the text are worthless. Clarity, organization, and simplicity of the text matter — but instrumentally, not intrinsically. The text is also the workpiece for every _future_ change (1c), and future behavior will come from changed text. Textual virtues are investments in tomorrow's behavior: they make coming changes cheaper and safer to make and to re-check. The rule this clause imposes is only this: any virtue claimed for the text must be redeemable in behavior — today's or a future day's. A virtue that can never cash out that way is decoration.
+First, 1a does **not** say that qualities of the text are worthless. Clarity, organization, and simplicity matter — but instrumentally, not intrinsically. The text is also the workpiece for every _future_ change (1c), and future behavior will come from changed text. Textual virtues are investments in tomorrow's behavior: they make coming changes cheaper and safer to make and to re-check. The rule is only this: any virtue claimed for the text must be redeemable in behavior — today's or a future day's. A virtue that can never cash out that way is decoration.
 
 Second, the clause's opening — read, stored, and _copied exactly, at almost no cost_ — is load-bearing, not scene-setting. Exact copying is what later makes it possible to rehearse software away from the real world ([T5](#t5)) and to say precisely which version of the text a piece of evidence was about ([T3](#t3)).
 
@@ -69,7 +69,7 @@ Second, the clause's opening — read, stored, and _copied exactly, at almost no
 
 A hammer works the same in any house. Software is not like that: a system that ran perfectly yesterday can fail today with not one symbol of its text changed, because something it stood on — another program, a machine, a data format, a service operated by strangers — moved.
 
-What the environment includes deserves spelling out, because each part carries consequences developed later:
+What the environment includes deserves spelling out; each part carries consequences developed later:
 
 - **Other software.** Nearly all software leans on software written elsewhere — borrowed parts, platforms, services. In any system of consequence, most of the text that determines behavior was written by people and machines who have never heard of the system it now serves.
 - **People and other parties.** The environment is not neutral. It includes users who behave unexpectedly, and it includes parties who probe and push deliberately, seeking behavior the software's makers never wanted to exist.
@@ -81,17 +81,17 @@ The boundary of the clause: 1b does **not** say the text controls nothing. The t
 
 Physical media discipline the people who work in them. In a bridge, a small change is small, a large change is costly, and effects sit near their causes; the material itself enforces this. Software's medium enforces nothing of the kind. Editing one character costs the same near-nothing as editing thousands, and the medium offers no promise that the effects of either will stay near the edit.
 
-Why effects travel: software is built of parts that refer to and depend on other parts. Consequence moves along those lines of reference, not along physical adjacency. A long contract behaves a little like this — amend clause 12 and clause 3 may silently change in force, which is why careful lawyers re-read amendments against the whole. But the analogy breaks in software's disfavor: a contract is ultimately read by people, who can notice an absurd result and reach for what the parties must have meant. Software's reader executes the absurdity, at full speed, without flagging it.
+Why effects travel: software is built of parts that refer to and depend on other parts. Consequence moves along those lines of reference, not along physical adjacency. A long contract behaves a little like this — amend clause 12 and clause 3 may silently change in force, which is why careful lawyers re-read amendments against the whole. The analogy breaks in software's disfavor: a contract is ultimately read by people, who can notice an absurd result and reach for what the parties must have meant. Software's reader executes the absurdity, at full speed, without flagging it.
 
-The absence of locality runs in both directions, and this matters: a sweeping edit can turn out to change behavior barely at all, and a one-character edit can change everything. Neither the size nor the place of an edit is, by itself, evidence about the size or place of its effects. Any working rule that says otherwise — "it was a small change, so the risk is small" — is not a fact about the medium. At best it is a fact about _constructed_ containment, which somebody built and somebody must maintain.
+The absence of locality runs both ways: a sweeping edit can change behavior barely at all, and a one-character edit can change everything. Neither the size nor the place of an edit is, by itself, evidence about the size or place of its effects. Any working rule that says otherwise — "it was a small change, so the risk is small" — is not a fact about the medium. At best it is a fact about _constructed_ containment, which somebody built and somebody must maintain.
 
-Two boundaries. First, the near-zero cost refers to the mechanical act of editing. Deciding _what_ to change can be as hard as anything in this field — that difficulty descends from opacity (1d) and from the nature of intent (Axiom 2), not from the medium's resistance. The full act of changing _responsibly_ costs far more than the edit; that is the subject of [T3](#t3).
+Two boundaries. First, the near-zero cost refers to the mechanical act of editing. Deciding _what_ to change can be as hard as anything in this field — that difficulty descends from opacity (1d) and from the nature of intent (Axiom 2), not from the medium's resistance. Changing _responsibly_ costs far more than the edit; that is the subject of [T3](#t3).
 
-Second, 1c does **not** claim every change does reach everywhere — most changes, in practice, stay put. The claim is that nothing in the medium _guarantees_ it. Where containment exists, it was engineered, and it can be wrong. The engineering of containment is treated under [T14 — Structure is how bounded actors survive scale](3-actors.md#t14).
+Second, 1c does **not** claim every change reaches everywhere — most changes, in practice, stay put. The claim is that nothing in the medium _guarantees_ it. Where containment exists, it was engineered, and it can be wrong. The engineering of containment is treated under [T14 — Structure is how bounded actors survive scale](3-actors.md#t14).
 
 ### <span id="1d-commentary">On 1d — Opacity</span>
 
-This is the strangest clause to anyone who has not worked in the medium, because it seems to insult the text: the instructions are all _right there_, complete and exact — how can they not disclose what they will do? Three separate grounds, each sufficient to establish the clause, all three operating at once:
+This is the strangest clause to anyone who has not worked in the medium: the instructions are all _right there_, complete and exact — how can they not disclose what they will do? Three separate grounds, each sufficient on its own, all three operating at once:
 
 1. **A limit of logic.** It is a settled result of computer science — proven in the strong, mathematical sense — that there can be no general method, however clever and however well-resourced, that answers every question about what an arbitrary program will do. (The field calls this family of results _undecidability_.) This is bedrock, not a complaint about today's tools; no future tool escapes it.
 2. **A limit of scale.** Even where analysis is possible in principle, the number of distinct situations a system can face — combinations of inputs, timings, and surroundings — exceeds, for any system of consequence, anything that could ever be enumerated. Not "difficult to enumerate": beyond any feasible resources, permanently. Every checking effort, however vast, is a sample.
@@ -117,11 +117,11 @@ None follows from the rest: a medium could be transparent yet rigid (1c without 
 
 ## <span id="consequences">Consequences</span>
 
-Five theorems are homed under this axiom, all descending primarily from it. (T6–T8 and T13 are homed under [Axiom 2](2-intent.md#consequences), T9–T12 and T14 under [Axiom 3](3-actors.md#consequences); numbering is corpus-wide and indexed in the [README](README.md).) _Theorem_ is used in the argued sense, not the formal one: each is a consequence reasoned from the axiom's clauses — and, where marked, from bedrock facts or from clauses of the companion axioms — stated so that the reasoning can be inspected and attacked. Under each theorem sit its **engineering directions**: problems that any framework governing software work must solve, stated as problems, not as designs. (_Framework_ here means any deliberate way of organizing this work — rules, tools, roles, procedures.) Where current practice already has a name for a derived thing, the name is noted in parentheses; the note attaches a label, it does not import an authority.
+Five theorems are homed under this axiom, all descending primarily from it. (T6–T8 and T13 are homed under [Axiom 2](2-intent.md#consequences), T9–T12 and T14 under [Axiom 3](3-actors.md#consequences); numbering is corpus-wide and indexed in the [README](README.md).) _Theorem_ is used in the argued sense, not the formal one: each is a consequence reasoned from the axiom's clauses — and, where marked, from bedrock facts or from clauses of the companion axioms — stated so the reasoning can be inspected and attacked. Under each theorem sit its **engineering directions**: problems any framework governing software work must solve, stated as problems, not as designs. (_Framework_ here means any deliberate way of organizing this work — rules, tools, roles, procedures.) Where current practice already has a name for a derived thing, the name is noted in parentheses; the note attaches a label, it does not import an authority.
 
 ### <span id="t1">T1 — All assurance is partial</span>
 
-**Descends from [1d](#1d), with [1b](#1b).**
+**Descends from [1d](#1d) + [1b](#1b).**
 
 Knowledge of behavior comes only from observation (1d) — or, where mathematics can certify a stated property under stated assumptions, from a proof whose certificate is conditional on those assumptions and covers only the properties someone thought to state (1d commentary). Any body of observations is finite, and the situations a system can face are beyond enumeration (1d, the limit of scale). Meanwhile the environment that shaped past observations — and that any proof assumes — keeps moving (1b). So every honest claim of confidence in software has one of two forms: _"in the situations sampled so far, under the environment as it stood, nothing unacceptable was seen,"_ or _"provided these assumptions about the environment hold, this stated property is guaranteed."_ Confidence in software is a degree (or a conditional), never a settled fact about behavior entire, and there is no reachable state called _verified once and for all_.
 
@@ -151,7 +151,7 @@ Partial assurance means some unacceptable behavior _will_ reach real use, given 
 
 ### <span id="t2">T2 — Questions of behavior are settled by running</span>
 
-**Descends from [1d](#1d); co-parent [3c — no self-certification](3-actors.md#3c).**
+**Descends from [1d](#1d), co-parent [3c — No self-certification](3-actors.md#3c).**
 
 If the text cannot fully disclose behavior (1d), then a disagreement about behavior cannot be finally settled by argument over the text — nor by anyone's rank, confidence, or eloquence (co-parent 3c: no participant's say-so is self-validating). Execution is the only tribunal whose verdict does not depend on who is speaking. **In questions of behavior, a demonstration outranks any assertion, whoever asserts.**
 
@@ -173,7 +173,7 @@ One forward note: demonstrations are made things, produced by some participant, 
 
 **Descends from [1c](#1c) + [1d](#1d).**
 
-Making a change costs almost nothing, and the medium does not confine the change's effects to its neighborhood (1c). Knowing what the changed whole now does requires fresh observation (1d). Put together: after any edit, yesterday's confidence is, strictly speaking, confidence about yesterday's text. Assurance does not survive change by default. So the true cost of a change is dominated not by making it but by re-establishing that the whole still behaves acceptably — **the economics of software work are the economics of re-trust, not of typing.**
+Making a change costs almost nothing, and the medium does not confine the change's effects to its neighborhood (1c). Knowing what the changed whole now does requires fresh observation (1d). After any edit, yesterday's confidence is, strictly speaking, confidence about yesterday's text. Assurance does not survive change by default. The true cost of a change is dominated not by making it but by re-establishing that the whole still behaves acceptably — **the economics of software work are the economics of re-trust, not of typing.**
 
 **Engineering directions:**
 
@@ -216,7 +216,7 @@ Software's worth is behavior in the world (1a), behavior reaches the world throu
 - records destroyed
 - machinery actuated
 
-Meanwhile, learning what software does requires running it, abundantly (1d, [T1](#t1)). The medium therefore carries a standing tension: the thing that must be done freely in order to learn is the same thing that can do harm. The resolution has to be engineered, because the medium does not provide it: separate execution whose effects do not count — rehearsal — from execution whose effects do, and govern the crossing between them.
+Meanwhile, learning what software does requires running it, abundantly (1d, [T1](#t1)). The medium therefore carries a standing tension: the thing that must be done freely to learn is the same thing that can do harm. The resolution has to be engineered, because the medium does not provide it: separate execution whose effects do not count — rehearsal — from execution whose effects do, and govern the crossing between them.
 
 One consequence follows immediately and must not be lost: rehearsal is approximation. A rehearsal environment is a _different_ environment (1b), so rehearsal evidence is evidence about a stand-in. How faithfully the stand-in predicts the real thing is a property to be measured and maintained, never presumed.
 
@@ -242,7 +242,7 @@ Production is itself execution: whoever — or whatever — is doing the work ru
 
 ## <span id="elsewhere">Descendants homed elsewhere</span>
 
-Clauses of this axiom serve as co-parents to theorems homed under the companion axioms:
+Clauses of this axiom are co-parents to theorems homed under the companion axioms:
 
 - [1a — Enactment](#1a) → [T6 — Every act of production decides unstated things](2-intent.md#t6)
 - [1c — Malleability without locality](#1c) → [T14 — Structure is how bounded actors survive scale](3-actors.md#t14)

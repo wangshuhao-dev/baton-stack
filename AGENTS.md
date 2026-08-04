@@ -4,13 +4,9 @@
 
 This repository is full-stack scaffolding for software work under delegation — derived from a living corpus, and built so that humans, agents, and sub-agents in any combination can hand off work reliably when delivery must continue over time. Theory lives in `corpus/`; durable collaboration memory lives under `record/`.
 
-- `corpus/` — the living theory body (axioms → theorems → directions).
-- `record/` — the shared record between roles, partitioned by kind:
-  - `decisions` — decisions with their reasons (what was decided in the residue)
-  - `evidence` — records whose force does not route through the producer's self-assessment
-  - `intent` — expressions of intent (what software should do and not do)
-  - `leanings` — what the software leans on (borrowed parts, platforms, services, formats, counterparty systems)
-  - `text` — software text (the means; the behavior is the point). Conventional monorepo runtime source lives here.
+- `corpus/` — the living theory body.
+- `record/` — the shared record between roles:
+  - `source` — Conventional monorepo runtime source lives here (a subset of theoretical text).
 
 <!--REPOSITORY LAYOUT END-->
 

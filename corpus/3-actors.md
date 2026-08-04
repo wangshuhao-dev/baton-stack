@@ -81,15 +81,15 @@ The analogy's break: a missed error in prose miscommunicates; in software it exe
 
 The clause's second sentence separates two things that collaborations habitually fuse. _Authority_ is a granted right: the sign-off, the merge, the acceptance — some party's yes is designated to conclude the matter, and designating it is necessary and legitimate (the [setting](README.md#setting) requires it). _Reliability_ is a fact about how often a party is right, and no grant can move it. Acceptance concludes the process; it does not make the work fit — the delegator who accepts may later meet dissatisfaction their own yes did nothing to prevent ([2c](2-intent.md#2c)), and questions of behavior stay settled the only way they settle ([T2](1-medium.md#t2)). Frameworks that let authority impersonate reliability inherit the gap as invisible risk.
 
-Uniformity is the clause's edge: no exemption for the most senior human, the most capable machine, or the checking machinery itself — checks are produced artifacts, produced by actors ([T13](2-intent.md#t13) noted this; [T9](#t9) takes it up). The boundary in the other direction: self-accounts are not worthless. They are _testimony_ — often the best available map of what was attempted and where the author is unsure — and [T9](#t9) gives them their proper rank: valuable for direction, insufficient for acceptance.
+Uniformity is the clause's edge: no exemption for the most senior human, the most capable machine, or the checking machinery itself — checks are produced artifacts, produced by actors ([T13](2-intent.md#t13) noted this; [T9](#t9) takes it up). The other boundary: self-accounts are not worthless. They are _testimony_ — often the best available map of what was attempted and where the author is unsure — and [T9](#t9) gives them their proper rank: valuable for direction, insufficient for acceptance.
 
 ### <span id="3d-commentary">On 3d — Heterogeneity in motion</span>
 
 Profiles do not rank on a single line. Between two actors, each may dwarf the other somewhere: one produces text a thousand times faster; the other carries context across months without being asked. "Better" and "smarter" are not profile words; a profile is a shape, and shapes are compared dimension by dimension, task by task.
 
-The second half of the clause — _in motion_ — is what makes it dangerous to ignore. Practices tune themselves to the profiles of the actors they grow among, silently: a rule of procedure rarely says "this exists because production is slow and judgment is plentiful," yet many rules exist for exactly such reasons. When profiles move — an actor kind gets faster, cheaper, more parallel, or loses and gains memory — the tuned practices fail without announcing it, because the assumption was never written down as an assumption. Whole eras of method are period furniture in this sense, and the only future-proof statement is the one this clause makes: differences exist, and they move. What to do about it is [T11](#t11) and [T12](#t12).
+The second half of the clause — _in motion_ — is what makes it dangerous to ignore. Practices tune themselves to the profiles of the actors they grow among, silently: a rule of procedure rarely says "this exists because production is slow and judgment is plentiful," yet many rules exist for exactly such reasons. When profiles move — an actor kind gets faster, cheaper, more parallel, or loses and gains memory — the tuned practices fail without announcing it, because the assumption was never written down as an assumption. Whole eras of method are period furniture in this sense. The clause's standing claim is only this: differences exist, and they move. What to do about it is [T11](#t11) and [T12](#t12).
 
-The boundary: 3d does not say profiles are unknowable — they can be measured, and [T12](#t12)'s calibration depends on measuring them. And it does not say assignment is arbitrary — the opposite: profiles are precisely what assignment should follow, held as current measurements rather than as beliefs about kinds.
+The boundary: 3d does not say profiles are unknowable — they can be measured, and [T12](#t12)'s calibration depends on measuring them. It also does not say assignment is arbitrary — the opposite: profiles are precisely what assignment should follow, held as current measurements rather than as beliefs about kinds.
 
 ### <span id="clause-audit">Why these four clauses</span>
 
@@ -108,14 +108,14 @@ Five theorems are homed under this axiom: four descend primarily from it, and [T
 
 ### <span id="t9">T9 — Testimony is not evidence</span>
 
-**Descends from [3c](#3c) + [1d](1-medium.md#1d), with the setting (the economics of acceptance).**
+**Descends from [3c](#3c) + [1d](1-medium.md#1d), with the [setting](README.md#setting) (the economics of acceptance).**
 
 Finished work arrives with an account of itself: what was done, what was checked, why it is right. Call that account **testimony**. By 3c it shares the blind spots of the work; by [1d](1-medium.md#1d) even a maximally careful and sincere producer could not fully know its artifact's behavior anyway. So testimony can inform, direct, and prioritize — it cannot establish. What establishes is **evidence**: records whose force does not route through the producer's self-assessment. Two properties make the difference:
 
 - _Independence_: the record is produced by a process whose errors do not line up with the producer's — another actor's examination, or best, the machine's own execution of checks ([T2](1-medium.md#t2)'s tribunal, which answers to no one's confidence).
 - _Binding_: the record is attached to the exact artifact it speaks about ([T3](1-medium.md#d-evidence-binding)), so it cannot drift onto work it never examined.
 
-The setting sharpens this into economics. Where delegation is for leverage — the case that shapes these economics ([setting](README.md#setting)) — it pays only if accepting work costs the delegator less than doing it — and testimony-plus-full-re-derivation offers only bad choices: accept cheap words, or redo the work. **The entire possibility of delegation therefore rests on a third thing existing: evidence that is far cheaper to check than the work was to produce**, and hard to manufacture except by actually doing the work. Such evidence does not occur naturally; it is engineered, and engineering it is among the first obligations of any framework this theory can endorse.
+The setting sharpens this into economics. Where delegation is for leverage — the case that shapes these economics ([setting](README.md#setting)) — it pays only if accepting work costs the delegator less than doing it. Testimony-plus-full-re-derivation offers only bad choices: accept cheap words, or redo the work. **The entire possibility of delegation therefore rests on a third thing existing: evidence that is far cheaper to check than the work was to produce**, and hard to manufacture except by actually doing the work. Such evidence does not occur naturally; it is engineered, and engineering it is among the first obligations of any framework this theory can endorse.
 
 **Engineering directions:**
 
@@ -139,11 +139,11 @@ Discarding testimony wastes the best pointer to where evidence should be sought:
 
 ### <span id="t10">T10 — What is not in the shared record is lost</span>
 
-**Descends from [3a](#3a) + the setting, with [T4](1-medium.md#t4) and [T7](2-intent.md#t7).**
+**Descends from [3a](#3a) + the [setting](README.md#setting), with [T4](1-medium.md#t4) and [T7](2-intent.md#t7).**
 
 The work outlives its episodes. Software needs tending for as long as it runs ([T4](1-medium.md#t4)), and the loop of discovery never runs dry ([T7](2-intent.md#t7)) — while episodes end with no guaranteed carryover (3a), and the setting adds that roles may be re-occupied: the actor who continues the work need not be the actor who did it. So every piece of knowledge the collaboration will need tomorrow — what was decided and why ([T6](2-intent.md#t6)), what was learned ([T7](2-intent.md#t7)), what was checked and how far ([T9](#t9)), what the system leans on ([T4](1-medium.md#t4)) — survives only if it lives outside every actor: durable, shared, inspectable. **The collaboration's memory is not the union of what its actors know. It is exactly the shared record, no more.** What an actor privately knows, the collaboration has merely borrowed — for one episode.
 
-A relay team is only as fast as its baton-work; software's relay has no finish line, and the team changes mid-race. And the record is not only memory across time: contemporaneous actors coordinate through it too ([T14](#t14)) — it is the one place all parties can meet. Its subordination to present intent was settled at [T8](2-intent.md#t8): the record witnesses; it does not rule. (What current practice approximates with the repository and its satellites — issues, documents, check histories — is this record, partially and unevenly.)
+A relay team is only as fast as its baton-work; software's relay has no finish line, and the team changes mid-race. The record is not only memory across time: contemporaneous actors coordinate through it too ([T14](#t14)) — it is the one place all parties can meet. Its subordination to present intent was settled at [T8](2-intent.md#t8): the record witnesses; it does not rule. (What current practice approximates with the repository and its satellites — issues, documents, check histories — is this record, partially and unevenly.)
 
 **Engineering directions:**
 
@@ -169,11 +169,11 @@ No actor loads the whole record (3a). The mirror problem of keeping the record i
 
 ### <span id="t11">T11 — Rules must bind roles and profiles, not kinds of actor</span>
 
-**Descends from [3d](#3d) + the setting.**
+**Descends from [3d](#3d) + the [setting](README.md#setting).**
 
-A framework's rules must be stated over something. Stated over kinds — "a person approves," "the machine writes, the human reads" — they import the profiles of one era as if permanent; 3d says profiles move, so kind-bound rules fail silently when the ground shifts, their assumptions having never been written as assumptions ([3d commentary](#3d-commentary)). Stated over _roles_ (delegator, producer, and whatever verifying and adjudicating roles a framework adds) and _profiles_ (measured capability and cost), rules survive motion: when profiles shift, assignments change; the rules stand. This is also what lets one theory govern every arrangement the setting allows — person delegating to machine, machine to machine, machine to person — without rewriting itself for each.
+A framework's rules must be stated over something. Stated over kinds — "a person approves," "the machine writes, the human reads" — they import the profiles of one era as if permanent; 3d says profiles move, so kind-bound rules fail silently when the ground shifts, their assumptions having never been written as assumptions ([3d commentary](#3d-commentary)). Stated over _roles_ (delegator, producer, and whatever verifying and adjudicating roles a framework adds) and _profiles_ (measured capability and cost), rules survive motion: when profiles shift, assignments change; the rules stand. That is also what lets one theory govern every arrangement the setting allows — person delegating to machine, machine to machine, machine to person — without rewriting itself for each.
 
-The test is mechanical: any rule that names a kind must be re-expressible in role-and-profile terms, or it is encoding an era. Two boundaries. Kind is not meaningless — it is often a reasonable first predictor of profile, and may serve as evidence about a profile not yet measured; what it may not do is substitute for measurement, or appear in the framework's own rules. And kind constraints that are _external obligations held by a party_ — legal sign-off requirements, contractual kind restrictions — are not framework rules in this sense: they enter as expressions of present intent on the delegator side of the corpus ([T8](2-intent.md#t8); [overview](README.md#what-this-is)), ranked and superseded like any other expression, not hard-coded as era assumptions.
+The test is mechanical: any rule that names a kind must be re-expressible in role-and-profile terms, or it is encoding an era. Two boundaries. Kind is not meaningless — it is often a reasonable first predictor of profile, and may be evidence about a profile not yet measured; what it may not do is substitute for measurement, or appear in the framework's own rules. Kind constraints that are _external obligations held by a party_ — legal sign-off requirements, contractual kind restrictions — are not framework rules in this sense: they enter as expressions of present intent on the delegator side of the corpus ([T8](2-intent.md#t8); [overview](README.md#what-this-is)), ranked and superseded like any other expression, not hard-coded as era assumptions.
 
 **Engineering directions:**
 
@@ -191,11 +191,11 @@ Practices accrete around the profiles they grew among. Frameworks need the stand
 
 ### <span id="t12">T12 — Judgment is the scarce budget</span>
 
-**Descends from [3a](#3a) + [3b](#3b) + [3c](#3c) + the setting, with [3d](#3d).**
+**Descends from [3a](#3a) + [3b](#3b) + [3c](#3c) + the [setting](README.md#setting), with [3d](#3d).**
 
-Everything this theory has required — choosing what to check ([T1](1-medium.md#t1)), adjudicating expressions ([T8](2-intent.md#t8)), deciding at the boundary ([T6](2-intent.md#t6)), accepting at crossings ([T5](1-medium.md#t5)) — consumes qualified judgment, and judgment is finite per actor per episode (3a). The setting makes one pool of it decisive: the delegator's. Where delegation is for leverage, it exists to lift work off the delegator; if judging the work costs what doing it would have cost, that conversion bought nothing. So every dyad — and every level of every chain — lives or dies by the same conversion: how much accepted, fit behavior it obtains per unit of its scarcest judgment. That conversion rate is what a framework's whole design either raises or squanders.
+Everything this theory has required — choosing what to check ([T1](1-medium.md#t1)), adjudicating expressions ([T8](2-intent.md#t8)), deciding at the boundary ([T6](2-intent.md#t6)), accepting at crossings ([T5](1-medium.md#t5)) — consumes qualified judgment, and judgment is finite per actor per episode (3a). The setting makes one pool of it decisive: the delegator's. Where delegation is for leverage, it exists to lift work off the delegator; if judging the work costs what doing it would have cost, that conversion bought nothing. So every dyad — and every level of every chain — lives or dies by the same conversion: how much accepted, fit behavior it obtains per unit of its scarcest judgment. A framework's whole design either raises that rate or squanders it.
 
-Two corrections keep the budget honest. Checking errs (3b), so spending more judgment is not automatically buying more assurance — layers of checking pay when their blind spots differ ([3c](#3c)'s decorrelation, extended), and diminishing returns arrive early when they do not. And profiles differ and move (3d), so the budget's allocation cannot be static: it must follow measured reliability — _calibrated trust_ — with one floor that never moves: calibration estimates rates that are never exactly known and never zero (3b), so for irreversible classes ([T5](1-medium.md#t5)) checking depth may shrink with earned trust but may not reach zero.
+Two corrections keep the budget honest. Checking errs (3b), so spending more judgment does not automatically buy more assurance — layers of checking pay when their blind spots differ ([3c](#3c)'s decorrelation, extended), and diminishing returns arrive early when they do not. Profiles differ and move (3d), so the budget's allocation cannot be static: it must follow measured reliability — _calibrated trust_ — with one floor that never moves. Calibration estimates rates that are never exactly known and never zero (3b), so for irreversible classes ([T5](1-medium.md#t5)) checking depth may shrink with earned trust but may not reach zero.
 
 **Engineering directions:**
 
@@ -223,15 +223,15 @@ The path by which questions reach costlier judgment:
 
 ### <span id="t14">T14 — Structure is how bounded actors survive scale</span>
 
-**Junction theorem: descends from [3a](#3a) + [1c](1-medium.md#1c), with [T4](1-medium.md#t4) and [T7](2-intent.md#t7). Homed here because bounded actors are its subject.**
+**Junction theorem. Descends from [3a](#3a) + [1c](1-medium.md#1c), with [T4](1-medium.md#t4) and [T7](2-intent.md#t7). Homed here because bounded actors are its subject.**
 
 Systems grow for as long as they live ([T4](1-medium.md#t4), [T7](2-intent.md#t7)), actors are bounded (3a), so the fraction of a system any actor comprehends trends toward zero — while changes must go on being made, in a medium that spreads consequences without regard to anyone's comprehension ([1c](1-medium.md#1c)). The only exit is to impose on the text a property the medium does not supply: structure — a partition of the system such that bounded comprehension of a _part_ suffices for safe change _within_ it. Its instruments:
 
 - constructed boundaries that confine what a change can touch (supplying the reach-arguments [T3](1-medium.md#d-change-reach) required)
 - stated promises at the seams, so a part can be _used_ by knowing its promise rather than its insides — this is how an actor safely changes a system a thousand times larger than its comprehension
-- and conventions, which make unvisited regions guessable
+- conventions, which make unvisited regions guessable
 
-Structure also enables simultaneity: parts are what let many producers work at once without trampling one another, coordinating through the seams and the shared record ([T10](#t10)).
+Structure also enables simultaneity: parts let many producers work at once without trampling one another, coordinating through the seams and the shared record ([T10](#t10)).
 
 Two boundaries. Structure is itself text — [1c](1-medium.md#1c) applies to it, boundaries erode and promises drift, so structure is tended, not installed ([T4](1-medium.md#t4)'s discipline extends to it). And structure costs: every seam is a promise to maintain, and indirection taxes comprehension too — over-partitioned systems fail the bounded reader from the opposite direction.
 
@@ -247,7 +247,7 @@ Stated, checkable promises at every boundary (current practice: interfaces, cont
 
 #### <span id="d-convention-subsidy">Convention as comprehension subsidy</span>
 
-Uniformity lowers the cost of every region an actor visits: shared idioms, predictable shapes, one way of doing each common thing. Conventions serve twice — they pre-close residue decisions ([T6](2-intent.md#d-boundary-drawing)) and they subsidize bounded readers here; a framework should maintain them deliberately under both functions.
+Uniformity lowers the cost of every region an actor visits: shared idioms, predictable shapes, one way of doing each common thing. Conventions do two jobs — they pre-close residue decisions ([T6](2-intent.md#d-boundary-drawing)) and they subsidize bounded readers here; a framework should maintain them deliberately under both functions.
 
 #### <span id="d-concurrent-production">Concurrent production</span>
 
@@ -262,7 +262,7 @@ Peer producers meeting at a seam is the peer case of composition — the [settin
 
 ## <span id="elsewhere">Descendants homed elsewhere</span>
 
-Clauses of this axiom serve as co-parents to theorems homed under the companion axioms:
+Clauses of this axiom are co-parents to theorems homed under the companion axioms:
 
 - [3a — Boundedness](#3a) → [T13 — Intent wants to become executable](2-intent.md#t13)
 - [3c — No self-certification](#3c) → [T2 — Questions of behavior are settled by running](1-medium.md#t2)

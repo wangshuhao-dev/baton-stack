@@ -1,7 +1,7 @@
 packages:
-  - record/text/apps/*
-  - record/text/packages/*
-  - record/text/tools/*
+  - record/source/apps/*
+  - record/source/packages/*
+  - record/source/tools/*
 
 catalogMode: prefer
 

@@ -17,15 +17,15 @@
 
 ## <span id="what-this-is">What this is</span>
 
-Software work has always had the same shape: some party wants behavior in the world, and some party produces the text that causes it. But the field's inherited practices — how work is planned, reviewed, trusted, handed off — grew up during a long era in which one kind of actor did all the producing, and they quietly encode that era's facts: production slow and expensive, judgment relatively plentiful, participants persistent and few. Those facts have moved. Software now writes software at scale; production can be fast, cheap, parallel, and episodic. Practices tuned to the old profile fail without announcing it, because their assumptions were never written down as assumptions.
+Software work has always had the same shape: some party wants behavior in the world, and some party produces the text that causes it. The field's inherited practices — how work is planned, reviewed, trusted, handed off — grew up in a long era when one kind of actor did all the producing. Those practices quietly encode that era's facts: production slow and expensive, judgment relatively plentiful, participants persistent and few. Those facts have moved. Software now writes software at scale; production can be fast, cheap, parallel, and episodic. Practices tuned to the old profile fail without announcing it, because their assumptions were never written down as assumptions.
 
-This body of theory is the response: instead of patching practices, write down the facts that never moved. It consists of three axioms — one about software as a material ([the Medium](1-medium.md)), one about wanting software ([Intent](2-intent.md)), one about those who do the work ([Actors](3-actors.md)) — carrying eleven clauses in all. From these, fourteen theorems are derived, and under the theorems, forty-one engineering directions: problems any framework governing software work must solve. **What is derived can be re-derived when circumstances shift; what is merely inherited can only be defended or abandoned.** Much of what the theorems produce is deliberately familiar — version control, regression testing, staging environments, review all reappear — because a derivation does two things a tradition cannot: it explains _why_ a practice exists, and it shows _which of its features_ were contingent on a profile-era that has ended.
+This body of theory writes down the facts that never moved, instead of patching practices. It consists of three axioms — one about software as a material ([the Medium](1-medium.md)), one about wanting software ([Intent](2-intent.md)), one about those who do the work ([Actors](3-actors.md)) — eleven clauses in all. From these come fourteen theorems, and under the theorems forty-one engineering directions: problems any framework governing software work must solve. **What is derived can be re-derived when circumstances shift; what is merely inherited can only be defended or abandoned.** Much of what the theorems produce is deliberately familiar — version control, regression testing, staging environments, review all reappear. A derivation does two things a tradition cannot: it explains _why_ a practice exists, and it shows _which of its features_ were contingent on a profile-era that has ended.
 
-What this is not: a methodology, a tool guide, or a policy document — norms and obligations enter the theory only as constraints held by some party, never as annexed subject matter. Its unit of analysis is deliberately small — one delegating party, one producing party, and the artifacts between them — and larger arrangements are composed from that unit ([the setting](#setting) gives the mechanisms). It assumes no programming background: every term of art is introduced in plain language before use, analogies carry their breaking points marked, and names from current practice appear in parentheses as labels, never as authorities.
+What this is not: a methodology, a tool guide, or a policy document. Norms and obligations enter only as constraints held by some party, never as annexed subject matter. The unit of analysis is small — one delegating party, one producing party, and the artifacts between them — and larger arrangements are composed from that unit ([the setting](#setting) gives the mechanisms). It assumes no programming background: every term of art is introduced in plain language before use, analogies mark where they break, and names from current practice appear in parentheses as labels, never as authorities.
 
 ## <span id="adoption">How to read and adopt</span>
 
-The corpus is layered by rate of change, and it is meant to be entered shallowly and inhabited progressively.
+The corpus is layered by rate of change. Enter it shallowly; inhabit it as you need more.
 
 ### Depth 0 — the lens (minutes)
 
@@ -42,16 +42,16 @@ Read the commentary and theorems. Use them to audit existing practice: for each 
 
 ### Depth 2 — the directions
 
-Build on the engineering directions: a framework, a tool, a working agreement. Every component built should cite the direction anchors it answers; that citation habit is what keeps the [traceability chain](#graph) unbroken from running code all the way back to an axiom clause.
+Build on the engineering directions: a framework, a tool, a working agreement. Every component should cite the direction anchors it answers; that habit keeps the [traceability chain](#graph) unbroken from running code back to an axiom clause.
 
 Navigation conventions, corpus-wide:
 
 - clauses carry anchors `1a`–`3d`
 - theorems `t1`–`t14`
 - directions `d-…` (name-based, insertion-proof)
-- Every theorem opens with a **Descends from** line linking its parents
+- every theorem opens with a **Descends from** line linking its parents
 - every direction sits inside its theorem's section
-- Anchors are permanent once published.
+- anchors are permanent once published.
 
 ## <span id="bedrock">Bedrock</span>
 
@@ -80,7 +80,7 @@ Everything durable the collaboration has — the software's text, the record of 
 
 ### Why delegation happens
 
-Commonly, for leverage: the delegator seeks more accepted behavior per unit of its own effort and judgment. (Not universally — delegation for training or redundancy exists — but leverage is the case that shapes the economics: [T9](3-actors.md#t9), [T12](3-actors.md#t12).)
+Commonly, for leverage: the delegator seeks more accepted behavior per unit of its own effort and judgment. Delegation for training or redundancy also exists, but leverage is the case that shapes the economics ([T9](3-actors.md#t9), [T12](3-actors.md#t12)).
 
 ### Relations, not appointments
 
@@ -242,7 +242,7 @@ The axiom set claims two properties — minimal completeness and mutual independ
 - Remove [Axiom 2](2-intent.md) and complete one-shot specification becomes available: production stops being decision-making, iteration is mere inefficiency, and a finished suite of checks could equal intent.
 - Remove [Axiom 3](3-actors.md) and an oracle could exist: its testimony would suffice, shared records would be a convenience, and rules could safely name kinds of actor.
 
-Each deletion collapses a distinct, indispensable region — verification, discovery, and trust respectively.
+Each deletion collapses a distinct region — verification, discovery, and trust respectively — and none of the three can be spared.
 
 ### Independence, as non-derivability
 
@@ -279,17 +279,19 @@ Candidates weighed for axiom status and placed lower, because the razor demanded
 - _frameworks must not assume the parties' kinds_ — derivable, now [T11](3-actors.md#t11), which is stronger as a conclusion than it would have been as an assumption
 - _communication is lossy_ — bedrock, not domain
 - _delegation exists_ — the setting's definition, not a claim
-- _machines now produce faster than people can review_ — a present-day profile measurement, outside the theory's domain; it may inform frameworks built on the directions, but nothing in this corpus depends on it.
+- _machines now produce faster than people can review_ — a present-day profile measurement, quarantined to the [observations layer](#corpus), where it can age without taking the theory with it.
 
 ## <span id="amendments">Amendment rules</span>
 
-The corpus is layered by rate of change, and dependence points strictly downward: directions cite theorems, theorems cite clauses.
+The corpus is layered by rate of change, and dependence points strictly downward: directions cite theorems, theorems cite clauses, and **nothing above the observations layer may cite the observations layer.** That quarantine lets the time-bound record refresh freely without disturbing what stands on the axioms.
 
+- **Observations** change freely. Entries are dated, and each maps a current capability or practice to the anchor of the concept it instantiates.
 - **Directions** may be added at any time: nested under exactly one theorem, stating a problem rather than a design, carrying a new `d-` anchor. The [index above](#directions) is updated in the same change.
 - **Theorems** may be added when they do work no existing theorem does: the amendment names parent clauses (plus setting or bedrock where used), lists theorem-uses, homes the theorem with the axiom bearing most of its weight, and adds co-parentage lines to the other parents' _Descendants homed elsewhere_ sections and to the [graph](#graph).
 - **Clauses and axioms** change rarely and only under the full razor: the addition must pass the deletion test (something real becomes underivable without it), the independence test (it is not derivable from what stands), and a re-run of the completeness sweep.
+- **Decisions** behind structural change are recorded: any amendment that adds, cuts, re-homes, or re-grounds a clause, theorem, or convention appends an entry to the [decision record](decisions.md) — what stands, what was rejected, why, and what would reopen it.
 - **Editorial invariants:**
-  - anchors are permanent once published — titles may be reworded, identifiers may not
+  - anchors are permanent once published — titles may be reworded, identifiers may not (the observations layer is exempt: its snapshot, anchors included, is replaced wholesale at each refresh)
   - imported vocabulary always arrives as a parenthetical label after the derived concept, never before it
   - analogies state their breaking points.
 
@@ -299,3 +301,5 @@ The corpus is layered by rate of change, and dependence points strictly downward
 - [1-medium.md](1-medium.md) — Axiom 1: the Medium. Theorems T1–T5.
 - [2-intent.md](2-intent.md) — Axiom 2: Intent. Theorems T6–T8, T13.
 - [3-actors.md](3-actors.md) — Axiom 3: Actors. Theorems T9–T12, T14.
+- [decisions.md](decisions.md) — the decision record: the judgment calls behind the corpus's shape, each with its alternatives, reasons, and reopening condition. Append-and-mark; never load-bearing.
+- [observations.md](observations.md) — the time-bound layer: dated observations of what current tools and practices do, each mapped to the anchors it instantiates. Refreshed at its own cadence; never load-bearing.
