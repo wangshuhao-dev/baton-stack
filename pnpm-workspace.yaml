@@ -1,7 +1,7 @@
 packages:
-  - record/source/apps/*
-  - record/source/packages/*
-  - record/source/tools/*
+  - delivery/source/apps/*
+  - delivery/source/packages/*
+  - delivery/source/tools/*
 
 catalogMode: prefer
 

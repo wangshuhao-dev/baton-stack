@@ -1,8 +1,8 @@
-# baton-stack
+# BatonStack
 
 > [!IMPORTANT]
 >
-> **Project status:** The living corpus in [`corpus/`](corpus/) has finished its founding pass — axioms, theorems, directions, decisions, and observations. The applied framework those directions call for is **not built yet**.
+> **Project status:** The living corpus in [`corpus/`](corpus/) has finished its founding pass — axioms, theorems, directions, decisions, and observations. The scaffold those directions call for is **not built yet**.
 
 This repository is full-stack scaffolding for software work under delegation — derived from a [living corpus](corpus/), and built so that humans, agents, and sub-agents in any combination can hand off work reliably when delivery must continue over time.
 
@@ -37,3 +37,13 @@ Die Dokumentation ist noch im Aufbau — für den aktuellen Stand und den Rest k
 このリポジトリは、委譲のもとでソフトウェアの仕事を進めるためのフルスタックな土台です。[生きたコーパス](corpus/)から導かれ、人・エージェント・サブエージェントがどんな組み合わせでも、継続的なデリバリーのなかで仕事を確実に引き継げるように作られています。
 
 ドキュメントはまだ作成中です。当面の最新状況もそれ以外も、エージェントに聞いてみるとよいでしょう。ちなみに、エージェントは最高です。
+
+---
+
+## Layout
+
+This repository organizes its root around the corpus's theory, its applied engineering layer, and the software being delivered:
+
+- [`corpus/`](corpus/) — the theory of software production under delegation, derived from first principles.
+- [`scaffold/`](scaffold/) — the engineering implementation of the corpus's theory, adoptable by any delegator-producer pair.
+- [`delivery/`](delivery/) — the actual software being produced, and the real collaboration around producing it.

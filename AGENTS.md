@@ -1,15 +1,3 @@
-<!--REPOSITORY LAYOUT START-->
-
-# Nonstandard layout — corpus and shared record first, not source code
-
-This repository is full-stack scaffolding for software work under delegation — derived from a living corpus, and built so that humans, agents, and sub-agents in any combination can hand off work reliably when delivery must continue over time. Theory lives in `corpus/`; durable collaboration memory lives under `record/`.
-
-- `corpus/` — the living theory body.
-- `record/` — the shared record between roles:
-  - `source` — Conventional monorepo runtime source lives here (a subset of theoretical text).
-
-<!--REPOSITORY LAYOUT END-->
-
 <!--VITE PLUS START-->
 
 # Using Vite+, the Unified Toolchain for the Web

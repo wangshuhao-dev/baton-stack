@@ -1,6 +1,8 @@
 # Software Work Under Delegation
 
-> Three axioms — about the medium, the wanting, and the participants — from which the practices of software work can be derived rather than inherited. Stated so that they hold whether the parties are people, machines, or both, and so that they stay standing as capabilities move.
+> The theory of software production under delegation, derived from first principles.
+
+Three axioms — about the medium, the wanting, and the participants — from which the practices of software work can be derived rather than inherited. Stated so that they hold whether the parties are people, machines, or both, and so that they stay standing as capabilities move.
 
 ## Contents
 
